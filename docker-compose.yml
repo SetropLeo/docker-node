@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  dockernode:
+  test-docker-node:
     build: .
     command: npm start
     ports:
